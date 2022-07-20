@@ -138,3 +138,37 @@ li a:hover {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+/* footer stylesheet */
+
+footer {
+    padding-top: 100px;
+    text-align: center;
+    background-color: #161616;
+    margin-top: 180px;
+    width: 850px;
+    margin-left: 280px;
+    color: white;
+
+}
+
+hr {
+    border: 1px solid rgb(113, 124, 129);
+    width: 750px;
+
+}
+
+.info {
+    display: flex;
+    padding-bottom: 60px;
+    padding-left: 70px;
+    font-size: 10px;
+
+}
+
+.info a {
+    color: white;
+    text-decoration: none;
+    padding-left: 60px;
+
+}
