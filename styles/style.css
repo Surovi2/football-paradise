@@ -6,3 +6,49 @@ body {
     font-family: 'Kaushan Script', cursive;
     font-family: 'Poppins', sans-serif;
 }
+
+/* banner style ... */
+.top-part {
+    display: flex;
+    background: #161616;
+    width: 800px;
+    height: 400px;
+    border-radius: 30px;
+    margin-left: 270px;
+    margin-top: 40px;
+}
+
+.top-part:hover {
+    background-color: rgb(34, 34, 84);
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 1.1;
+    padding-top: 20px;
+
+}
+
+.banner-left {
+    color: white;
+    width: 300px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.banner-right img {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 200px;
+    padding-top: 30px;
+    height: 370px;
+}
+
+.watch {
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 8px 8px;
+    border-radius: 10px;
+    line-height: 50px;
+}
