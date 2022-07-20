@@ -120,6 +120,7 @@ li a:hover {
 .second-part {
     display: flex;
     margin-top: 0px;
+    width: 800px;
 }
 
 .blog {
@@ -143,11 +144,11 @@ li a:hover {
 
 footer {
     padding-top: 100px;
+    margin-left: 270px;
+    margin-top: 180px;
     text-align: center;
     background-color: #161616;
-    margin-top: 180px;
-    width: 850px;
-    margin-left: 280px;
+    width: 800px;
     color: white;
 
 }
