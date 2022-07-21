@@ -220,3 +220,46 @@ hr {
     height: 100PX;
 
 }
+
+/* ------------media queries ------------*/
+
+
+/* mobile devices */
+@media only screen and (max-width: 688px) {
+
+    .top-part {
+        align-items: center;
+        justify-content: center;
+        height: 850px;
+        width: 400px;
+        display: grid;
+    }
+
+    .second-part {
+        display: grid;
+    }
+
+    .nav-bar {
+        padding-left: 100px;
+    }
+
+    .live-transfer {
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 350px;
+    }
+
+    footer {
+        width: 370px;
+
+    }
+
+    hr {
+        width: 370px;
+    }
+
+    .info {
+        display: grid;
+        margin-right: 110px;
+        line-height: 60px;
+    }
+}
