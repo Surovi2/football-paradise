@@ -283,6 +283,11 @@ hr {
         align-items: center;
         margin-top: 5px;
 
+        height: 50px;
+    }
+
+    li {
+        padding-top: 100px;
 
     }
 
@@ -291,6 +296,7 @@ hr {
         size: 10px;
         width: 140px;
         height: 20px;
+
     }
 
     .second-part {
@@ -300,6 +306,7 @@ hr {
     .live-transfer {
         grid-template-columns: repeat(2, 1fr);
         margin-left: 5px;
+        padding-left: 90px;
     }
 
     footer {
@@ -316,5 +323,39 @@ hr {
         grid-template-columns: repeat(3, 1fr);
         margin-right: 110px;
         line-height: 60px;
+    }
+}
+
+/* upcoming match mobile view  */
+
+@media only screen and (max-width: 688px) {
+    .second-part {
+        display: grid;
+    }
+
+    .nav-bar {
+        padding-left: 100px;
+    }
+
+    .gvf {
+        grid-template-columns: repeat(1, 1fr);
+        width: 500px;
+        padding-left: 350px;
+
+    }
+
+    .flag {
+        width: 180px;
+    }
+
+}
+
+/* upcoming match tablet view  */
+
+@media only screen and (min-width: 689px)and (max-width: 992px) {
+    .gvf {
+        grid-template-columns: repeat(2, 1fr);
+        width: 500px;
+        padding-left: 150px;
     }
 }
